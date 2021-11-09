@@ -1,0 +1,76 @@
+body{
+    font-family: 'Mochiy Pop One', sans-serif;
+    background-color: rgb(217, 238, 237);
+}
+.welcome{
+    color: tomato;
+    text-shadow:2px 2px 2px turquoise;
+    text-align: center;
+    font-size: 200%;
+    box-shadow: 2px 2px 2px 2px greenyellow;
+    border-radius: 5px;
+    transition: background-image 2s ease 5sec;
+   
+}
+.welcome:hover{
+    background-image: linear-gradient(lightgreen,greenyellow);
+}
+span{
+    color: rgb(243, 109, 0);
+}
+.name{
+    font-size: 120%;
+    text-shadow: 2px 2px 2px thistle;
+    box-shadow:1px 1px 2px 1px violet;
+    width: 30%;
+    border-radius: 5px;
+    transition: background-image 5sec ease-in-out 5sec;
+    float: left ;
+    margin-left: 5%;
+    
+    
+}
+.name:hover{
+    background-image: linear-gradient(cyan,lightblue);
+}
+
+
+.logo{
+    
+    width: 50%;
+    height: 50%;
+    padding: 5%;
+}
+.info{
+    width: 40%;
+    color: rgb(0, 110, 255);
+    float: left;
+    padding: 5px 5px;    
+    
+    transition: background-image 5sec ease-out 2sec;
+}
+.info:hover{
+    background-image: linear-gradient(skyblue,whitesmoke,lightgrey);
+    
+}
+.webdeveloper{
+    width: 40%;
+    color: royalblue;
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    padding: 10px 5px;
+    box-shadow:2px 2px 2px 2px skyblue;
+    border-radius: 10px;
+    transition: background-image 5sec ease-in;
+}
+.webdeveloper:hover{
+   background-image: linear-gradient(lightyellow,lightgreen,greenyellow);
+}
+.link-button{
+    text-decoration:none;
+    background-image: linear-gradient(yellow,lightgreen,skyblue);
+    padding: 8px 16px;
+    color: white;
+    font-weight: lighter;
+}
